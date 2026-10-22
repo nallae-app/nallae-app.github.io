@@ -1,8 +1,26 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.rehyyn.nallae",
-        "sha256_cert_fingerprints": ["F6:41:3D:FD:6E:ED:E1:5F:00:93:81:4A:F0:CB:98:15:99:C2:5B:AC:EC:D6:E6:89:A6:9E:87:93:5C:57:39:D3"]
-      }
-    }]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.rehyyn.nallae",
+      "sha256_cert_fingerprints": [
+        "F6:41:3D:FD:6E:ED:E1:5F:00:93:81:4A:F0:CB:98:15:99:C2:5B:AC:EC:D6:E6:89:A6:9E:87:93:5C:57:39:D3"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "app.nallae",
+      "sha256_cert_fingerprints": [
+        "86:29:D6:89:F4:51:94:A0:BE:86:06:09:91:61:18:F2:46:8A:80:E8:9D:58:66:82:20:0A:3C:8B:ED:F8:BF:A8"
+      ]
+    }
+  }
+]
